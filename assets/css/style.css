@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#calculator {
+    background-color: #838282;
+    width: 300px;
+}
+
+input {
+    width: 50px;
+    box-shadow: 5px 5px 5px;
+}
+
+#screen {
+    width: 100%;
+}
+
+input:active {
+    box-shadow: none;
+    transform: translate(5px, 5px);
+}
+
+#screen:active {
+    transform: none;
+    box-shadow: none;
+    
+}
