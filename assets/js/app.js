@@ -5,9 +5,9 @@ document.getElementsByTagName("input")[number].addEventListener("click", functio
 }
 
 // for AC button
-document.getElementsByTagName("input")[1].addEventListener("click", function() {
-  document.getElementById("screen").value = ""
-})
+// document.getElementsByTagName("input")[1].addEventListener("click", function() {
+//   document.getElementById("screen").value = ""
+// })
 
 
 //for DEL button
